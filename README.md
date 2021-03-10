@@ -6,5 +6,5 @@ Wordpressテーマ Mcluhanの子テーマ
 * PCでの閲覧時、ヘッダーにサイトアイコンを表示
 * ヘッダーレイアウトをすっきりさせた
 
-##Sample
+## Sample
 http://osakana333.wp.xdomain.jp/
