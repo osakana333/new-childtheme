@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+ Theme Name:   Mcluhan jp
+ Theme URI:    none
+ Author:       Moheji henoheno
+ Author URI:   none
+ Template:     mcluhan
+ Version:      0.1.0
+ License:      GNU General Public License version 2.0
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  mcluhan-jp
+*/
+
+img.top-imaging {
+  margin: 10px auto;
+}
+.menu-wrapper {
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+.social-menu.desktop {
+  background: #121212;
+  padding: 0 50px 50px 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+@media (min-width: 1001px) {
+  .site-header {
+    padding: 24px 50px 100px 50px;
+  }
+}
+@media (max-width: 1000px) {
+  img.top-imaging {
+    display: none;
+    /* あるいは左にフロートしてさらに小さいサイズで表示してもよい */
+  }
+}
